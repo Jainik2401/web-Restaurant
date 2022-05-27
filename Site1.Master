@@ -1,0 +1,99 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.Master.vb" Inherits="Restaurant.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="~/Styles/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        body
+        {
+            font-family: 'Roboto Slab', serif;
+        }
+    </style>
+   
+</head>
+<body>
+    <form id="Form1" runat="server">
+        <div class="header">
+        <div class="row">
+            <div class="col-sm-12">
+            <div class="nav">
+             
+               <span class="logo">
+				    <img src="images/logo.png" />               
+			    </span>
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" >
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/menu.aspx" Text="Menu" Value="Menu"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About Us" Value="About Us"></asp:MenuItem>
+                        <asp:MenuItem NavigateUrl="~/contact.aspx" Text="Contact Us" Value="Contact Us"></asp:MenuItem>  
+                    </Items>
+                </asp:Menu>
+                <div class="pull-right" style="margin-top:-100px">
+                    <ul>
+                        <li><asp:HyperLink ID="lblProfile" runat="server" NavigateUrl="profile.aspx">Profile</asp:HyperLink></li>
+                        <li><asp:HyperLink ID="lblCart" runat="server" NavigateUrl="cart.aspx" style="font-family: FontAwesome, 'Open Sans', Verdana, sans-serif;">	&#xf07a;</asp:HyperLink>
+                            
+                            
+                            <div class="cart-wrapper" style="position:absolute;background-color:#ff9966;color:white;width:20px;height:20px;border-radius:50%;top:40px;right:115px;text-align:center">
+                            <asp:Label ID="lblCartItem" runat="server" Text="0"></asp:Label>
+                        </div></li>
+                        
+                    </ul>                    
+                </div>
+            </div>
+            </div>
+        </div>            
+        </div>     
+        <div class="main" style="width:100%;margin:0">
+               <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+    <div class="footer">
+        <div class="container">
+         <div class="row">           
+             <div class="col-lg-4 col-sm-4 col-xs-12 pull-left">
+                 <div class="basic_info">                          
+                      <asp:Image ID="Image1" runat="server" Height="76px" Width="189px" src="images/footer_logo.png" />
+         
+                       <ul class="list-inline social">                                
+                            <li><a href="https://www.instagram.com" class="fa fa-instagram"></a></li>
+                            <li><a href="https://www.twitter.com" class="fa fa-twitter"></a></li>
+                            <li><a href="https://www.facebook.com" class="fa fa-facebook"></a></li>
+                       </ul>
+                       <div class="footer-copyright">
+                            <p class="wow fadeInRight" data-wow-duration="1s">
+                                  Made with 
+                                  <i class="fa fa-heart"></i>
+                                  by 
+                                  Shriyank Mendpara                                    
+                            </p>
+                       </div>					
+                 </div>
+             </div>
+             <div class="col-lg-3 col-sm-4 col-xs-12 col-lg-offset-1 pull-right">
+                        <div class="contact_us">
+                            <h2>Contact Us:</h2>
+                            <a href="https://www.shriyank161@gmail.com">shriyank161@gmail.com</a>
+                            <address>
+                                SDJ International College<br>
+                                Vesu, Surat<br>
+                                Gujarat. <br>
+                            </address>
+                            <h2>Working Hours:</h2>
+                            <address>9:00 AM - 10:30 PM</address>
+                        </div>
+            </div>
+        </div>
+       </div>        
+    </div>
+    </form>
+</body>
+</html>

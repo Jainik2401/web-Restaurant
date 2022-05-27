@@ -1,0 +1,16 @@
+G:\College\SEM5\Restaurant\Restaurant\bin\Restaurant.dll
+G:\College\SEM5\Restaurant\Restaurant\bin\Restaurant.pdb
+G:\College\SEM5\Restaurant\Restaurant\bin\Restaurant.xml
+G:\College\SEM5\Restaurant\Restaurant\obj\Debug\Restaurant.Resources.resources
+G:\College\SEM5\Restaurant\Restaurant\obj\Debug\Restaurant.vbproj.GenerateResource.Cache
+G:\College\SEM5\Restaurant\Restaurant\obj\Debug\Restaurant.dll
+G:\College\SEM5\Restaurant\Restaurant\obj\Debug\Restaurant.xml
+G:\College\SEM5\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+F:\STUDY\Sem 5\journal\Restaurant\Restaurant\bin\Restaurant.dll
+F:\STUDY\Sem 5\journal\Restaurant\Restaurant\bin\Restaurant.pdb
+F:\STUDY\Sem 5\journal\Restaurant\Restaurant\bin\Restaurant.xml
+F:\STUDY\Sem 5\journal\Restaurant\Restaurant\obj\Debug\Restaurant.Resources.resources
+F:\STUDY\Sem 5\journal\Restaurant\Restaurant\obj\Debug\Restaurant.vbproj.GenerateResource.Cache
+F:\STUDY\Sem 5\journal\Restaurant\Restaurant\obj\Debug\Restaurant.dll
+F:\STUDY\Sem 5\journal\Restaurant\Restaurant\obj\Debug\Restaurant.xml
+F:\STUDY\Sem 5\journal\Restaurant\Restaurant\obj\Debug\Restaurant.pdb

@@ -1,0 +1,49 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="admin.master.vb" Inherits="Restaurant.admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/admin.css" rel="stylesheet" type="text/css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet" /> 
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+   
+    <style>
+        body
+        {
+            font-family: 'Roboto Slab', serif;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div class="header">  
+     
+            <div class="nav"  style="width:100%">             
+                <span class="logo">
+				    <img src="/images/logo.png" />               
+			    </span>
+                <asp:Menu ID="Menu1" runat="server" cssclass="menu" IncludeStyleBlock="false" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem Text="Orders" NavigateUrl="~/Admin/orders.aspx" Value="Orders"></asp:MenuItem>
+                    <asp:MenuItem Text="Users" NavigateUrl="~/Admin/users.aspx" Value="Users"></asp:MenuItem>
+                    <asp:MenuItem Text="Employee" NavigateUrl="~/Admin/employees.aspx" Value="Employee"></asp:MenuItem>
+                    <asp:MenuItem Text="Items" NavigateUrl="~/Admin/items.aspx" Value="Items"></asp:MenuItem>
+                    <asp:MenuItem Text="Queries" NavigateUrl="~/Admin/queries.aspx" Value="Queries"></asp:MenuItem>
+                    <asp:MenuItem Text="Reports" NavigateUrl="~/Admin/reports.aspx" Value="Reports"></asp:MenuItem>
+                    <asp:MenuItem Text="Log Out" NavigateUrl="~/Admin/logout.aspx" Value="LogOut"></asp:MenuItem>
+
+                </Items>
+                </asp:Menu>
+            </div>
+    </div>
+ 
+    <div class="main">
+         <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+    </div>
+    </form>
+</body>
+</html>

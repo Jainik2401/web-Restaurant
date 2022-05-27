@@ -1,0 +1,398 @@
+﻿.nav
+{
+	height: 105px;
+	background-color:#262626;
+
+}
+.nav .logo{
+	float: left;
+	color: white;
+	padding-top: 15px;
+	padding-left: 70px;
+}
+.nav ul{
+	float: left;
+	padding-right: 100px;
+	padding-top: 30px;	
+}
+.nav ul li{
+	display: inline-block;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: white;
+	list-style: none;
+	display: inline-block;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	text-align:left;
+	border-bottom:3px solid #262626;
+}
+.nav ul li a:hover{
+	background-color:  white;
+	border-bottom: 3px solid #ff6600;
+	color: #262626;
+	transition: 0.9s;
+}
+.nav ul li.active a{
+	background-color:  #ff6600;
+	border-bottom: 3px solid white;
+	color: black;
+}
+.footer{
+	background-color:#262626;
+    height: 300px;
+}
+.basic_info, .contact_us, .subscribe {
+    margin-top: 38px;
+    overflow: hidden;
+    height: 277px;
+}
+.footer_logo {
+    margin-left: 20px;
+    width: 160px;
+}
+.social {
+    margin-top: 25px;
+}
+.social > li {
+    padding: 0 8px;
+}
+.social .fa {
+    background: #4d5154;
+    border-radius: 100%;
+    color: #bec5cd;
+    display: block;
+    font-size: 20px;
+    height: 45px;
+    padding-top: 13px;
+    text-align: center;
+    width: 45px;
+}
+.social .fa:hover,.social .fa:focus {
+    background: #616976;
+	text-decoration:none;
+}
+.footer-copyright {
+    margin: 35px 0 45px;
+    font-size: 22px;
+    color:#fff;
+}
+.footer-copyright a{
+    font-weight: 700;
+    font-size: 20px;
+    color:#fff;
+    padding:0px 5px;
+}
+.contact_us {
+    color:  #cccccc;
+    display: block;
+    line-height: 26px;
+    margin: 16px 0;
+	text-decoration:none;
+	font-size:18px;
+}
+.contact_us >a{
+	color:white;
+	font-size:20px;
+	line-height: 40px;
+}
+address {
+    color: #85898d;
+    line-height: 24px;
+}
+.feature
+{	background: url(../images/feature_bg.jpg)no-repeat;
+	background-size: 100% 100%;
+	height: 360px;
+	overflow:hidden;
+	margin-top: 25px;
+	margin-bottom:25px;
+	
+}
+.shack_burger {
+    float: right;
+    margin-right: 20px;
+    width: 255px;
+}
+.chicken {
+    display: block;
+    margin: 22px auto 0;
+    width: 120px;
+}
+.shack_burger > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.feature .caption {
+    bottom: 0;
+    color: #f1f1f1;
+    font-size: 12px;
+    line-height: 12px;
+    left: 30px;
+    position: absolute;
+}
+.signature{
+	background: url(../images/sign_bg.jpg)no-repeat;
+	background-size: 100% 100%;
+	height: 360px;
+	padding: 0 18px 18px;
+	margin-top:25px;
+	margin-bottom:25px;
+	color:white;
+}
+.shape {
+    background: linear-gradient(#ad021d, #c72937) repeat scroll 0 0;
+    height: 100px;
+    width: 136px;
+    position: relative;
+}
+.shape:after {
+    border-bottom: 20px solid transparent;
+    border-left: 68px solid #c72937;
+    border-right: 68px solid #c72937;
+    bottom: -20px;
+    content: "";
+    position: absolute;
+}
+.shape .flaticon:before {
+    display: block;
+    font-size: 50px;
+    height: 65px;
+    margin: 0;
+    padding-top: 34px;
+    text-align: center;
+    width: 100%;
+}
+.shape > p {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 2px 10px;
+    text-align: center;
+    text-transform: uppercase;
+	padding-top:35px;
+}
+.signature_content {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 4px;
+    margin-top: 42px;
+    width: 168px;	
+}
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.45) none repeat scroll 0 0;
+    margin-left:-150px;
+    padding: 18px 15px 35px 35px;
+    top: 60px;
+    width: 450px;
+    height:375px;
+}
+.carousel-caption > h2 {
+    font-size: 55px;
+    line-height: 70px;
+    text-align:left;
+    letter-spacing: 0.1px;
+}
+.carousel-caption > h3 {
+    font-size: 39px;
+    text-align:left;
+}
+.carousel-caption > p {
+    font-size: 20px;
+    line-height: 26px;
+    margin-right: 40px;
+    margin-top: 28px;
+    text-align: left;
+}
+.classic{
+	background: url(../images/classic_bg.jpg)no-repeat;
+	background-size: 100% 100%;
+	margin-top:25px;
+	height:360px;
+	position:relative;
+	overflow:hidden;
+}
+.classic_btn {
+    background: #dc9e15 none repeat scroll 0 0;
+    color: #262626;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 18px;
+    padding: 9px 13px 9px 25px;
+    text-transform: uppercase;
+    position:relative;
+}
+.classic_btn:hover,.classic_btn:focus {
+    background: #c58e13 none repeat scroll 0 0;
+    color: #262626;
+}
+.classic .overlay {
+    background: rgba(147, 79, 50, 0.80) none repeat scroll 0 0;
+    bottom: 0;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 26px 2px;
+    position: absolute;
+}
+.classic .overlay p {
+    margin-bottom: 20px;
+}
+.inner
+{
+    background: url(../images/cold-brew-coffee.png)no-repeat;
+	background-size: 100% 100%;
+	margin-top:25px;
+	height:360px;
+	position:relative;
+	overflow:hidden;
+}
+.menu1_cat
+{
+    color:white;
+	border-bottom:2px solid gray;
+	padding-bottom:4px;
+	font-weight:bold;
+}
+.menu1_item{
+
+	background: #000;
+	float: left;
+	box-sizing: border-box;
+	overflow: hidden;
+	box-shadow: 5px 10px 15px rgba(0,0,0,.8);	
+}
+#lock{
+    background: url(../images/lock_bg.jpg)no-repeat;
+    background-size: 100% 100%;
+    margin-top: 40px;
+    min-height: 185px;
+    padding: 66px 40px 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight:bold;
+	color:white;
+}
+#lock > h2 {    
+    font-weight: bold;
+    line-height: 36px;
+}
+.container h2,h1,p{
+	color:white;
+}
+.team h1{
+	text-align: center;
+	height: 7px;
+	padding-top: 70px;
+	font-size: 40px;
+	color: white;
+}
+.ga{
+	width: 1200px;
+	height: 300px;
+	margin: 80px auto;	
+}
+.ga .box{
+	position: relative;
+	width: calc(300px - 40px);
+	height: calc(300px - 40px);
+	float: left;
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.ga .box .img{
+	position: relative;
+}
+.ga .box .img img{
+	width: 100%;
+	height: 100%;
+	display: cover;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+.info h1{
+	text-align: center;
+	height: 60px;
+	font-size: 42px;
+	color: white;
+}
+.main1{
+	top: 370px;
+	left: 50%;	
+	margin: 20px;
+	transform: translate(5%);
+}
+.content{
+	font-size: 20px;
+	margin: 25px; 
+	color: white;
+	box-sizing: border-box;
+}
+.content h2{
+	border-bottom:2px solid white;
+	border-bottom-width:80%;	
+}
+.login-form{	
+	width:100%;	
+	height: 400px;
+	background-color: rgba(0, 0, 0,0.4);	 
+}
+
+.error
+{
+    color:#ff3333;
+    font-size:16px;
+}
+.form-control:focus
+    {
+        border-color:#ff9933;
+        outline:none;
+        box-shadow: 0 2px 2px rgba(0,0,0,0.075) inset, 0 0 20px rgba(255,153,51,0.9);
+    }
+.sidenav
+{
+    background-color:#262626;
+    font-size:16px;
+    width:100%;
+    border-top:3px solid #ff9933;
+}
+.sidenav ul
+{
+    width:100% !important;
+}
+.sidenav ul li
+{
+    border-bottom:1px solid #ff9933;
+}
+.sidenav ul li a
+{
+    padding:10px;
+    width:100%;
+    color:white;
+    width:100%;    
+}
+.sidenav ul li a:hover
+{
+    color:Black;
+    background-color:White;
+    transition:0.9s;
+}
+.btn-default{
+        background-color:#ff9933;
+        color:White;
+        border-color:#ff9933;
+    }
+    .btn-default:hover{
+        background-color:white;
+        color:#ff9933;
+        border-color:#ff9933;
+        transition:0.9s;
+    }
+    .poster
+    {
+        background-color: rgba(38,38,38,1);
+        color:White;
+        font-size:16px;
+    }
